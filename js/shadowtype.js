@@ -53,13 +53,13 @@ function init() {
     scene.add(model2Mesh);
   });
 
-  var planeGeometry = new THREE.PlaneGeometry(1000, 1000, 10, 10);
+  var planeGeometry = new THREE.PlaneGeometry(1500, 1500, 10, 10);
   var randomHue = Math.round(Math.random() * 360);
   var planeColor = new THREE.Color("hsl(" + randomHue + ", 100%, 50%)")
   planeMaterial = new THREE.MeshLambertMaterial({color: planeColor, side: THREE.DoubleSide});
   var plane = new THREE.Mesh(planeGeometry, planeMaterial);
   plane.rotation.x = Math.PI / -2; // flatten plane to be on the floor
-  plane.position.y = -150;
+  plane.position.y = -200;
   plane.receiveShadow = true;
   scene.add(plane);
 
@@ -88,7 +88,7 @@ function animate() {
   spotlight.position.x = 900 * Math.cos(timer); // x-coord of camera
   spotlight.position.z = 900 * Math.sin(timer); // z-coord of camera
 
-  planeMaterial.color.offsetHSL( 0.0003, 0.001, 0.0001 );
+  planeMaterial.color.offsetHSL( 0.0003, 0, 0 );
 
   renderer.render(scene, camera);
   controls.update();

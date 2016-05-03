@@ -1,0 +1,32 @@
+@font-face {
+  font-family: Blackout;
+  src:
+    url('fonts/blackout_sunrise-webfont.ttf'),
+    url('fonts/blackout_sunrise-webfont.svg'),
+    url('fonts/blackout_sunrise-webfont.eot'),
+    url('fonts/blackout_sunrise-webfont.woff');
+}
+body {
+  background-color: white;
+}
+
+@keyframes appear {
+  0% {opacity: 0;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+h1 {
+  font-family: Blackout;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  animation: appear 6s;
+  text-shadow: 5px 5px 10px gray;
+  color: white;
+}
+
+h1:hover {
+  color: black;
+}

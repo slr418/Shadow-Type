@@ -5,7 +5,7 @@
 
 [Sara's Portfolio] (http://www.sararadinphotography.com)
 
-[See the project] (http://www.i6.cims.nyu.edu/~slr418/shadow_type/)
+[See the project] (http://i6.cims.nyu.edu/~slr418/shadow_type/)
 ---
 Inspired by the work of Fred Eerdekenz and other typographers working with lighting effects, I designed a typeface based off of Helvetica that would use light and shadow to "write" the strokes.  
 

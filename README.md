@@ -3,7 +3,7 @@
 ## A typeface that manipulates light and shadow to create strokes
 ### Designed and coded by Sara Radin
 
-<sararadinphotography.com>
+[Portfolio Website] (sararadinphotography.com)
 ---
 Inspired by the work of Fred Eerdekenz and other typographers working with lighting effects, I designed a typeface based off of Helvetica that would use light and shadow to "write" the strokes.  
 

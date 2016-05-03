@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Shadow Type</title>
+
+    <style>
+      @font-face {
+        font-family: Blackout;
+        src:
+          url('fonts/blackout_sunrise-webfont.ttf'),
+          url('fonts/blackout_sunrise-webfont.svg'),
+          url('fonts/blackout_sunrise-webfont.eot'),
+          url('fonts/blackout_sunrise-webfont.woff');
+      }
+      body {
+        background-color: white;
+      }
+
+      @keyframes appear {
+        from {opacity: 0;}
+        to {opacity: 1;}
+      }
+
+      h1 {
+        font-family: Blackout;
+        font-size: 50px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        animation: appear 5s;
+        text-shadow: 5px 5px 10px gray;
+        color: white;
+      }
+
+      h1:hover {
+        color: black;
+      }
+    </style>
+  <head>
+
+  <body>
+    <h1>Shadow Type</h1>
+
+    <script src="js/three.min.js"></script>
+    <script src="js/OrbitControls.js"></script>
+    <script src="js/shadowtype.js"></script>
+  </body>
+</html>
